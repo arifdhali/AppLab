@@ -1,0 +1,560 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+/* 
+font-family: 'Poppins', sans-serif;
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s;
+  color: #242f51;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  color: #242f51;
+  font-size: 17px !important;
+}
+h2 {
+  color: #242f51 !important;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+p {
+  color: #616368;
+  font-size: 18px;
+}
+ul {
+  padding-left: 0;
+}
+li {
+  list-style-type: none;
+}
+.align {
+  max-width: 550px;
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.subPara {
+  margin: auto;
+  text-align: center;
+  max-width: 1000px;
+}
+.margin-top {
+  margin-top: 100px;
+}
+
+/* ================> Header style start <================*/
+.pre-loader {
+  width: 100%;
+  height: 100vh;
+  background: url("../Images/pre.gif") center no-repeat;
+  z-index: 111;
+}
+header {
+  background: #fdfdfe;
+}
+
+.nav-item {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.nav-item:hover {
+  color: #fcae61;
+}
+
+.signUp {
+  background: #2500f9;
+  font-weight: 600;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-size: 14px;
+  color: #fff;
+  transition: all .3s ease-in-out;
+}
+
+.signUp:hover {
+  background: #fcae61 !important;
+  transform: translateY(-4px);
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero area */
+#hero-area {
+  background: url(../Images/heroFooter.png) no-repeat bottom;
+  background-size: 100% auto;
+}
+
+.hero-style {
+  background: url(../Images/heroBg2.png) no-repeat center;
+}
+.hero-style p {
+  text-align: left;
+  margin: 20px 0;
+}
+.hero-align {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#hero-area p:first-child {
+  background: #e2eaed;
+  display: inline-block;
+  border-radius: 50px;
+  padding-right: 15px;
+}
+
+.fa-circle-check {
+  background: #feaa25;
+  color: #fff;
+  padding: 10px 10px;
+  border-radius: 50px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.noOutline {
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #2500f9;
+  font-size: 16px;
+  font-weight: 500;
+}
+.noOutline:hover {
+  color: #2500f9;
+  text-decoration: underline;
+}
+
+.control {
+  float: right;
+}
+figure {
+  margin: 0;
+}
+/* ================> Trusted Company List style start <================*/
+#trusted-company {
+  text-align: center;
+}
+
+#trusted-company h2 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#trusted-company img {
+  padding: 30px 0;
+  transition: all 0.8s;
+  cursor: pointer;
+}
+
+#trusted-company img:hover {
+  transform: scale(0.9);
+}
+
+/* ================> Apps featuers style start <================*/
+.features-align {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-features {
+  position: relative;
+}
+.left-features img {
+  max-width: 450px;
+}
+.left-features .pic {
+  position: absolute;
+  top: -20%;
+  left: 5%;
+  width: 100%;
+}
+/* feature list top part */
+.features-top p {
+  margin-bottom: 70px;
+}
+.feature-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.feature-list-icon {
+  margin-right: 38px;
+}
+.feature-list-description p {
+  font-size: 16px;
+  font-weight: 500;
+}
+h3 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.list-heading-red {
+  color: #f55767;
+}
+.list-heading-blue {
+  color: #2563ff;
+}
+.list-heading-green {
+  color: #40975f;
+}
+
+/* feature-Middle part */
+#feature-middle {
+  margin-top: 40px;
+}
+#feature-middle h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.feature-middle-left {
+  border-right: 3px solid #b9b9b8;
+}
+#feature-middle .middle-align {
+  align-items: center;
+}
+.feature-middle-btm {
+  margin-top: 80px;
+}
+.feature-middle-btm img {
+  margin-bottom: 20px;
+}
+
+/* Feature- Bottom- Part */
+
+#feature-bottom {
+  margin-top: 80px;
+}
+#feature-bottom .right {
+  padding-left: 3rem;
+}
+
+.align-bottom {
+  align-items: center;
+}
+.align-bottom img {
+  margin-bottom: 80px;
+}
+hr {
+  border: 1px solid #cecdcd;
+}
+
+/* ================> Why choose our app style start <================*/
+.why-our-app-top {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.why-our-app-bottom .content {
+  text-align: center;
+}
+.why-our-app-bottom .content img {
+  margin: 40px 0;
+  transition: all 0.3s;
+}
+.why-our-app-bottom .content img:hover {
+  transform: scale(1.1);
+}
+
+/* Ultimate feature style start */
+
+.ultimate-features-top {
+  width: 70%;
+}
+.ultimate-features-bottom img {
+  margin: 40px 0;
+  transition: all 0.3s;
+}
+.ultimate-features-bottom img:hover {
+  transform: scale(1.1);
+}
+
+/* ================> Package area style start <================*/
+.select-package {
+  border: 2px solid #cecdcd;
+  width: 227px;
+  border-radius: 50px;
+  padding: 2px 0;
+  margin-top: 30px;
+}
+.select-package button {
+  border: 0;
+}
+.select-package .signUp:hover {
+  transform: translateY(0);
+}
+.select-package-content {
+  border: 2px solid #f1f1f1;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.select-package-content:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+}
+.select-package-content .top {
+  background: #f8f8f883;
+  padding: 20px 0;
+}
+.select-package-content .top span {
+  font-size: 30px;
+  font-weight: 600;
+}
+.select-package-content .top h4 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.select-package-content .top sub {
+  font-size: 12px;
+  color: #cecdcd;
+  font-weight: 400;
+}
+.select-package-content .btm {
+  padding: 20px 0;
+}
+.select-package-content .btm li {
+  margin-bottom: 10px;
+}
+.select-package-content .btm .noOutline {
+  display: block;
+}
+.fa-xmark {
+  color: rgb(255, 43, 43);
+  padding-left: 15px;
+}
+.fa-check {
+  color: rgb(49, 237, 64);
+  padding-left: 15px;
+}
+
+/* ================> Client Feedback style start <================*/
+#client-feedback {
+  align-items: center;
+}
+.right-feedback {
+  overflow: hidden;
+}
+.right-feedback h3 {
+  margin: 20px 0;
+}
+.star-icon .fa-star {
+  color: #ffcc00;
+}
+.feedback-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.client-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.client-name {
+  margin-left: 15px;
+}
+.client-pic p {
+  margin: 0;
+}
+
+.fa-arrow-left,
+.fa-arrow-right {
+  border: 1px solid #e7ebf0;
+  padding: 15px 17px;
+  border-radius: 50px;
+  font-size: 20px;
+  color: #e7ebf0;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin: 5px 0;
+}
+.fa-arrow-left:hover,
+.fa-arrow-right:hover {
+  background: #e7ebf0;
+  color: #2500f9;
+}
+/* ================>  Frequently asked questions style start <================*/
+.faq-area {
+  padding: 50px 0;
+  width: 80%;
+  margin: auto;
+}
+.faq-list {
+  background: #f5f7fa;
+  border-left: 5px solid orange;
+}
+.faq-header {
+  padding: 20px;
+  margin-bottom: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.3s ease-in-out;
+}
+
+.faq-header:hover {
+  background: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.faq-description p {
+  font-size: 18px;
+  padding: 20px;
+  display: none;
+  margin: 20px 0;
+}
+
+/* ================> Footer part style start <================*/
+
+.download-store {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.download-store img {
+  transition: all 0.3s ease-in-out;
+}
+.download-store img:hover {
+  transform: scale(1.1);
+}
+
+/* footer bottom */
+.bottom-footer {
+  background: #09142e;
+  padding-top: 70px;
+  text-align: center;
+}
+.bottom-footer h3 {
+  color: #fcae61;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.bottom-footer span {
+  color: #fff;
+}
+.bottom-footer li {
+  display: inline;
+}
+.bottom-footer li a {
+  color: #fff;
+  opacity: 0.8;
+  font-size: 15px;
+  transition: all 0.3s;
+  padding: 20px;
+}
+.bottom-footer li a:hover {
+  color: #fcae61 !important;
+}
+.footer-social-area i {
+  padding: 20px;
+  transition: all 0.3s;
+}
+.footer-social-area i:hover {
+  color: #ffffff;
+  transform: scale(1.3);
+}
+
+.bottom-footer p {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+/* =========================================
+JavaScript start
+===================================== */
+
+/* sticky navbar */
+
+.sticky {
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 2px 15px rgba(187, 185, 185, 0.2);
+  z-index: 2;
+  animation: fade 1.5s;
+}
+@keyframes fade {
+  to {
+    transition: all 0.5s;
+  }
+  from {
+    padding: 20px 0;
+    transition: all 0.5s;
+  }
+}
+.annually {
+  display: none;
+  transition: all 2s;
+}
+.active {
+  display: flex;
+}
+/* Feedback */
+
+.faq-description.show p {
+  display: block;
+  transform: translateY(-20px);
+  transition: all 1s;
+  border-top: 1px solid #fff;
+}
+.faqAni {
+  animation: check 0.3s;
+  transition: all 0.1s ease-in-out;
+}
+@keyframes check {
+  to {
+    transform: translateY(0%);
+    opacity: 0.7;
+  }
+  from {
+    transform: translateY(-20%);
+    opacity: 1;
+  }
+}
+.minus {
+  display: none;
+}
+.plus {
+  transition: all 1s ease-in-out;
+}
+
+/* client */
+.client-list {
+  display: none;
+  overflow: hidden;
+}
+.ani {
+  animation: test 1s;
+  transition: all 1.2s ease-in-out;
+  overflow: hidden;
+}
+@keyframes test {
+  to {
+    transform: translateX(0%);
+  }
+  from {
+    transform: translateX(65%);
+    opacity: 1;
+  }
+}
